@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>gradiadsense</name>
+	<displayName><![CDATA[Gradi Adsense]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Módulo compatible con la version 1.7.1.0 y superiores de prestashop.
+Módulo administrable a través del back office de prestashop y con los siguientes campos:
+- Campo de imagen (background de la publicidad)
+- Campo de texto(título de la publicidad)
+- Campo de texto(descripción corta de la publicidad)
+- Campo de texto(label de un CTA)
+- Campo de texto(url del cta)
+- Campo tipo switch(para activar o desactivar la publicidad)
+
+Al instalar el módulo, se ancla automáticamente al hook displayHome
+
+Al desinstalar el módulo, se eliminan los fields y sus valores de la base de datos.
+
+Al instalar el módulo el aviso publicitario tiene una imagen por defecto]]></description>
+	<author><![CDATA[Carlos Alzate]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
